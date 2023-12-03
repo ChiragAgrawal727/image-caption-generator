@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Environment variables file
+.env
+
+# Compiled Python files
+*.pyc
+
+# Package directories
+*.egg-info/
+dist/
+build/
+
+# SQLite database files
+*.db
+
+# Local development configuration
+instance/
+
+# Compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Dependency directories
+node_modules/

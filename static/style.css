@@ -1,0 +1,111 @@
+
+body {
+    background-image: url('pexels-benjamin-suter-3617500.jpg');
+    background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bungee', cursive;
+    font-color : white;
+
+}
+
+form {
+    display: block;
+    margin-top: 20px;
+}
+
+.image-upload-box {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.hidden {
+    display: none;
+}
+
+.upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+    background-color: #2980b9;
+}
+
+.generate-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.generate-button:hover {
+    background-color: #27ae60;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-width: 200px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size : 20px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+

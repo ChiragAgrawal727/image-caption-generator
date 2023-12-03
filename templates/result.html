@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Caption Generator - Result</title>
+</head>
+
+<body>
+        <div class="navbar">
+        <div class="logo">
+            <img src="{{url_for('static', filename='Image_Captioner.png')}}" alt="Logo">
+        </div>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/">About Us</a>
+            <a href="/">Contact</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="result-container">
+            <img src="{{ image_path }}" alt="image description" height="500" width="500">
+            <p>{{ caption }}</p>
+        </div>
+    </div>
+</body>
+</html>
